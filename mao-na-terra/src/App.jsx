@@ -4,11 +4,11 @@ import Servicos from "./components/servicos"
 
 function App() {
   return(
-    <div className="">
-      <Header/>
-      <Servicos/>
-      <Footer/>
-    </div>
+    <>
+    <Header/>
+    <Servicos/>
+    <Footer/>
+    </>
   )
 }
 

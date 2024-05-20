@@ -2,7 +2,14 @@
 
 function Servicos() {
     return(
-        <h2>Serviços</h2>
+        <div>
+            <h1>Serviços</h1>
+            <div className="flex">
+                <div>Corte</div>
+                <div>Poda</div>
+                <div>Paisagismo</div>
+            </div>
+        </div>
     )
 }
 

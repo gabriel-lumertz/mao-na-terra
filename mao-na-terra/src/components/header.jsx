@@ -1,8 +1,8 @@
-
+import "./header.css"
 
 function Header() {
     return(
-        <h1>Header Aqui</h1>
+        <h1 className="header">Mão na Terra</h1>
     )
 }
 
